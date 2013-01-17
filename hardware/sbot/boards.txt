@@ -1,0 +1,19 @@
+sbot.name=SBOT w/BootloaderCDC
+sbot.upload.protocol=avr109
+sbot.upload.maximum_size=130048
+sbot.upload.speed=115200
+sbot.upload.disable_flushing=true
+sbot.upload.avrdude_wrapper=staticbot_reboot
+sbot.serial.restart_cmd=true
+sbot.serial.safe_baud_rates_only=true
+sbot.build.f_cpu=16000000L
+sbot.build.mcu=at90usb1286
+sbot.build.core=sbot
+sbot.build.elide_constructors=true
+sbot.build.cpp0x=true
+sbot.build.dependency=true
+sbot.build.linker_relaxation=true
+sbot.build.serial_number=true
+sbot.build.define=-DUSB_SERIAL
+sbot.build.define=-DLAYOUT_US_ENGLISH
+
